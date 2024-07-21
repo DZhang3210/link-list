@@ -1,11 +1,7 @@
-import React from 'react'
-
-const SectionBox = () => {
+export default function SectionBox({children}) {
   return (
-    <div>
-      
+    <div className="bg-white m-8 p-4 shadow">
+      {children}
     </div>
-  )
+  );
 }
-
-export default SectionBox

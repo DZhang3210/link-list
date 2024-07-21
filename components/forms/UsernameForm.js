@@ -32,7 +32,7 @@ export default function UsernameForm({desiredUsername}) {
           defaultValue={desiredUsername}
           type="text"
           placeholder="username" />
-        {taken && (
+        {taken && ( 
           <div className="bg-red-200 border border-red-500 p-2 mb-2 text-center">
             This username is taken
           </div>
